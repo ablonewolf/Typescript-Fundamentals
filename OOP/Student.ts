@@ -1,4 +1,4 @@
-class Student {
+export class Student {
   constructor(private firstName: string, private lastName: string) {}
   getFirstName(): string {
     return this.firstName;
@@ -7,7 +7,3 @@ class Student {
     return this.lastName;
   }
 }
-let student = new Student('Fairuz', 'Sharmee');
-console.log(
-  `The name of my student is ${student.getFirstName()} ${student.getLastName()}.`
-);
