@@ -9,3 +9,5 @@
 !*.txt
 # or any json files
 !*.json
+# or any markdown files
+!*.md
